@@ -26,7 +26,10 @@ public class PostController {
     // 2-2 글 목록을 페이징하여 반환
     
     // 3. 글 번호로 조회
-    
+ /*   @GetMapping("/post/{id}")
+    public Post getPostById(@PathVariable Long id){
+        return postRepository.findById(id);
+    }*/
     // 4. 글 내용으로 검색 -> 해당 내용이 포함된 모든 글
 
 }
